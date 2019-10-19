@@ -1,0 +1,34 @@
+.navBar {
+    background-color: black;
+}
+.navLink {
+    margin: 0 20px;
+}
+a:hover {
+    color: darkgrey !important;
+    text-decoration: none !important;
+}
+a {
+    line-height: 2;
+}
+.activeUrl {
+    color: red;
+    font-size: 25px;
+}
+.search-box {
+    display: flex;
+}
+.input-search {
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border: none !important;
+}
+.btn-search {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    -moz-border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    margin-left: -20px !important;
+    background-color: yellow;
+}
